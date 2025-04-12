@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>FAHED-BOUGAMRA</title>
+  <link rel="icon" href="photo/logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Oswald:wght@700&family=Roboto:wght@500&display=swap"
+    rel="stylesheet">
+  <!-- Ajouter &display=swap aux Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css'>
+  <link rel='stylesheet'
+    href='https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.2/iconfont/material-icons.min.css'>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <nav class="menu" style="--hue: 250.74048967748172">
+    <input class="menu__toggle" type="checkbox" id="menu-toggle">
+    <label class="menu__toggle-label" for="menu-toggle"></label>
+    <label class="menu__toggle-label menu__toggle-label--closer" for="menu-toggle">
+      <svg class="menu__icon" preserveAspectRatio="xMinYMin" viewBox="0 0 24 24">
+        <path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z"></path>
+      </svg>
+      <svg class="menu__icon" preserveAspectRatio="xMinYMin" viewBox="0 0 24 24">
+        <path
+          d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z">
+        </path>
+      </svg>
+    </label>
+    <ul class="menu__content">
+      <li class="menu__item">
+        <a class="menu__link" href="index.html">Accueil</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="https://fahedbougamra.ca/" target="_blank">Choisir un portfolio</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="integration.html">Integration</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="prog.html">Programmation</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="https://sglobalconseils.ca/" target="_blank">Projet de stage
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <header class="header_prog ">
+    <button class="toggle-button" onclick="toggleMode()">Basculer Mode</button>
+    <div class="dark-mode-button">
+      <i class="material-icons">wb_sunny</i>
+      <label for="toggleButton">
+        <input type="checkbox" id="toggleButton">
+        <span class="switch"></span>
+      </label>
+      <i class="material-icons material-icons--flip">brightness_3</i>
+    </div>
+    <h1>
+
+      <div class="nom-text d-flex align-items-center  justify-content-center">
+        Programmation</div>
+    </h1>
+    <div class="description d-flex align-items-center justify-content-center flex-column">
+      <h2>Projets en programmation</h2>
+      <p>Cette page regroupe mes projets axés sur le développement de fonctionnalités interactives et dynamiques. Vous y
+        découvrirez différentes réalisations où j’ai travaillé sur l’optimisation des performances et l’amélioration de
+        l’expérience utilisateur, en utilisant diverses technologies adaptées à chaque besoin.</p>
+    </div>
+  </header>
+  <section class="timeline">
+    <div class="time-prog">
+      <ul>
+        <li class="time-chrono">
+          <h3 class="titre-chrono-h3">Chronologie de mes projets</h3>
+        </li>
+        <li data-bg-image="time-imtegration-bg-1">
+          <h3>session d'été</h3>
+          <div class="time-container">
+            <h2>PROJET FINAL</h2>
+            <p>Le but de ce projet est de créer une application web
+              en <strong>React</strong> pour présenter un catalogue de films récupérés à partir d’une <strong>API
+                Rest</strong>, en
+              intégrant des composants réalisés avec <strong>HTML, CSS, et Bootstrap</strong>. L’application sera conçue
+              pour offrir une
+              interface utilisateur élégante et responsive.</p>
+            <a href="programmation/programmation-5.html" class="time-btn">En
+              savoir plus</a>
+          </div>
+        </li>
+        <li data-bg-image="time-prog-bg-4">
+          <h3> Mai - 2024</h3>
+          <div class="time-container">
+            <h2>PROJET IV</h2>
+            <p>Création d’un site de en <strong>ReactJS</strong> utilisant <strong>JSON</strong> pour gérer les données.
+              Il permet de
+              visualiser, trier et filtrer les produits, consulter les détails d’un produit, et gérer le panier
+              (ajouter/supprimer des articles). Le site est responsive.</p>
+            <a href="programmation/programmation-4.html" class="time-btn">En
+              savoir plus</a>
+          </div>
+        </li>
+        <li data-bg-image="time-prog-bg-3">
+          <h3>Avril - 2024</h3>
+          <div class="time-container">
+            <h2>PROJET III</h2>
+            <p>Développement d’un site en <strong>ReactJS</strong> permettant l’ajout, l’affichage et le tri des
+              employés, avec gestion
+              des données via <strong>JSON</strong>.</p>
+            <a href="programmation/programmation-3.html" class="time-btn">En
+              savoir plus</a>
+          </div>
+        </li>
+        <li data-bg-image="time-prog-bg-2">
+          <h3>Avril - 2024</h3>
+          <div class="time-container">
+            <h2>PROJET II</h2>
+            <p>Développement d’une application <strong>ReactJS</strong> pour consommer une <strong>API</strong> publique
+              de recettes. La première page
+              affiche l’image, le nom et la région des plats, tandis que la deuxième page présente les plats filtrés</p>
+            <a href="programmation/programmation-2.html" class="time-btn">En savoir
+              plus</a>
+          </div>
+        </li>
+        <li data-bg-image="time-prog-bg-1">
+          <h3>Décembre - 2023</h3>
+          <div class="time-container">
+            <h2>PROJET I</h2>
+            <p>– Login : Osullivan <br>
+              – Mot de passe : Osullivan2023<br>
+              Ce projet consiste à créer un jeu de roulette où les joueurs misent sur rouge ou noir. Un numéro de 0 à 36
+              est tiré; si la couleur correspond, le joueur double sa mise, sinon il la perd</p>
+            <a href="programmation/programmation-1.html" class="time-btn">En savoir
+              plus</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <div class="footer_accueil">
+    <div class=" social d-flex justify-content-center align-items-center">
+      <hr>
+      <a href="photo/Fahed-Bougamra-cv.pdf" target="_blank"><img src="photo/social/cv.png" alt="cv"></a>
+      <a href="https://github.com/FahedBougamra" target="_blank"><img src="photo/social/social.png" alt="Logo"></a>
+      <a href="https://www.instagram.com/fahd_bougamra?igsh=MXA2azdmMThveng1aA==" target="_blank"><img
+          src="photo/social/instagram1.png" alt="instagram"></a>
+      <a href="http://www.linkedin.com/in/fahed-bougamra-dev-web" target="_blank"><img src="photo/social/linkedin1.png"
+          alt="linkedin"></a>
+      <hr>
+    </div>
+    <div class="d-flex justify-content-evenly align-items-center">
+      <div class="row">
+        <div class="contact col-md-6 col-sd-12 text-center ">
+          <h2 id="contact">CONTACT</h2>
+          <span>(581) 688-4693</span>
+          <p><a href="mailto:Bougamra.Fahed@gmail.com">Bougamra.Fahed@gmail.com</a></p>
+          <span>Ste Foy, Québec. QC</span>
+        </div>
+        <div class="logo-cv col-md-6 col-sd-12 text-center">
+          <a href="https://www.test.fahedbougamra.ca/"> <img src="photo/logo.png" alt="Logo" class="img-fluid"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+  <script src="https://kit.fontawesome.com/ffedad2ddf.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
